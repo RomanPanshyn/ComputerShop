@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Roman\Programming\dotNET\Code\ComputerShop\ComputerShop\obj\Release\netcoreapp3.0\win-x86\PubTmp\Out\" />
+  <dbfullsql path="C:\Roman\Programming\dotNET\Code\ComputerShop\ComputerShop\obj\Release\netcoreapp3.0\win-x86\PubTmp\EFSQLScripts\ComputerShop.Models.AppDbContext.sql" />
+</sitemanifest>
