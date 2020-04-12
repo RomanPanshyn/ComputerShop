@@ -26,8 +26,15 @@ using ComputerShop.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Roman\Programming\dotNET\Code\ComputerShop\ComputerShop\Views\_ViewImports.cshtml"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0fc8d670506c64b4f8739a88313424deda408414", @"/Views/Shared/_CategoryCard.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"70a4092a7fbe82e4a066a5c1e308bcaaa314f830", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2ec5569403d5c9f1cf57374bb0fad58f4acf7732", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__CategoryCard : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Category>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Product", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -57,7 +64,7 @@ using ComputerShop.ViewModels;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<div class=\"category col-sm-6 col-md-6 col-lg-6\">        \r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0fc8d670506c64b4f8739a88313424deda4084143810", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0fc8d670506c64b4f8739a88313424deda4084144004", async() => {
                 WriteLiteral("\r\n        <img");
                 BeginWriteAttribute("alt", " alt=\"", 199, "\"", 224, 1);
 #nullable restore
@@ -109,7 +116,7 @@ WriteAttributeValue("", 231, Model.CategoryImage, 231, 20, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    <h4>\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0fc8d670506c64b4f8739a88313424deda4084146970", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0fc8d670506c64b4f8739a88313424deda4084147164", async() => {
                 WriteLiteral("\r\n            ");
 #nullable restore
 #line 12 "C:\Roman\Programming\dotNET\Code\ComputerShop\ComputerShop\Views\Shared\_CategoryCard.cshtml"

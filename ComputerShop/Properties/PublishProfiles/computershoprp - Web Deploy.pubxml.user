@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtr/3BnB7AEK7Mh5jm28MjAAAAAACAAAAAAAQZgAAAAEAACAAAADMfTaVzl+uANW10rLPmzo4BhFC5f04mXu41nj8+JtBawAAAAAOgAAAAAIAACAAAAATpJlS+n7UDmGf4PhpFDe/8nk77d5clmGSSjG01mdsl4AAAAB5+mNak5LKx5hIwqONN06gGMqDY+vRS5YVGgV3mNKAoxz8ukzPqIdPjPIdJSWlWGMmck2VwdoOmrnuzE2U+VDRnReHJqwOrwu50BWQN72YRzmQjIDrmkw90EpZqlibmQlqzB/+qIJ8tinPP+w32fNNL0O8GscMsD86DBnE2sevhkAAAABriXIgwa6PwHi2fbfxscuq2x9odhYV+fr/HVa4/mIMgXOyCEXVh8X3xxGy0Df2RcpU0GnmboXQowOMhsXmQkJn</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:romanpanshyn.database.windows.net,1433%3bInitial Catalog=ComputerShop-2%3bPersist Security Info=False%3bUser ID=roman%3bPassword=V54N8htd%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ComputerShop.Models.AppDbContext">
+      <Value>Server=tcp:romanpanshyn.database.windows.net,1433%3bInitial Catalog=ComputerShop-2%3bPersist Security Info=False%3bUser ID=roman%3bPassword=V54N8htd%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

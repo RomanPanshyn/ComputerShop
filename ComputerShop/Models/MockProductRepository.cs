@@ -208,7 +208,7 @@ namespace ComputerShop.Models
                     Name = "Tablet Samsung Galaxy Tab S6 10.5\" 6/128GB LTE Grey (SM-T865NZAASEK)",
                     Price = 24999M,
                     Image = "/Images/tablet/samsung_sm_t865nzaasek.jpg",
-                    Description = "Screen 10.5\" (2560x1600) capacitive MultiTouch / Qualcomm Snapdragon 855 (1x2.8 GHz + 2x2.4 GHz + 4x1.7 GHz) / RAM 6 GB / 128 GB internal memory + microSD / 3G / 4G / Wi-Fi / Bluetooth 5.0 / 13 Мп + 5 Мп main dual camera, 8 Мп front camera / GPS / GLONASS / Android 9.0 (Pie) / 420 g / grey",
+                    Description = "Screen 10.5\" (2560x1600) capacitive MultiTouch / Qualcomm Snapdragon 855 (1x2.8 GHz + 2x2.4 GHz + 4x1.7 GHz) / RAM 6 GB / 128 GB internal memory + microSD / 3G / 4G / Wi-Fi / Bluetooth 5.0 / 13MP + 5MP main dual camera, 8MP front camera / GPS / GLONASS / Android 9.0 (Pie) / 420 g / grey",
                     IsProductOfTheWeek = true,
                     InStock = true,
                     CategoryId = 5

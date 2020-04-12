@@ -5,7 +5,7 @@
 <div class="details">
     <img alt="@Model.Name" src="@Model.Image">
     <div class="caption-full">
-        <h3 class="pull-right">@Model.Price.ToString("c")</h3>
+        <h3 class="pull-right">@Model.Price.ToString("c0", CultureInfo.CreateSpecificCulture("uk-UA"))</h3>
         <h3>
             <a href="#">@Model.Name</a>
         </h3>

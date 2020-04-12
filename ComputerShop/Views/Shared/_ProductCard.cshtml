@@ -2,7 +2,7 @@
     <div class="col-sm-6 col-lg-6 col-md-6">
         <div class="thumbnail">
             <img src="@Model.Image" alt="@Model.Name">
-            <h4 class="pull-right">@Model.Price.ToString("c")</h4>
+            <h4 class="pull-right">@Model.Price.ToString("c0", CultureInfo.CreateSpecificCulture("uk-UA"))</h4>
             <div class="caption">
                 <h4>
                     <a asp-controller="Product"
